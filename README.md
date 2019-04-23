@@ -13,6 +13,7 @@ node_name - подэлемент,
 filename - имя файла, куда сохраняется xml.  
 Пример (по заданию):
 Xmlgenerator::Testgenerator.new.generate(300_000, 'visits', 'visit', 'sample.xml')  
+поля внутри visit (id, start_at, end_at, sum) - заданы в генераторе  
 
 xmlparser - сам парсер, использование:  
 require 'xmlparser'  
@@ -20,7 +21,7 @@ Xmlparser::Parser.new.parse_file(db_name, db_table, file, elements)
 db_name - имя создаваяемой базы данных,  
 db_table - имя создаваемой таблицы,  
 file - xml файл для парсинга,  
-elements - хэш со строковыми параметрами, соотвутствующими структуре файла.  
+elements - хэш со строковыми параметрами, соответствующими структуре файла.  
 Пример (по заданию):
 Xmlparser::Parser.new.parse_file('sample', 'visit', 'sample.xml', {'id' => 'integer', 'start_at' => 'timestamp', 'end_at' => 'timestamp', 'sum' => 'double precision'}))  
 
