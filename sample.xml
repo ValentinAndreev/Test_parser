@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<visits>
+  <visit>
+    <id>1</id>
+    <start_at>1981-03-14-06:38</start_at>
+    <end_at>1981-03-14-07:14</end_at>
+    <sum>8625.61</sum>
+  </visit>
+  <visit>
+    <id>2</id>
+    <start_at>2010-01-31-03:54</start_at>
+    <end_at>2010-01-31-04:51</end_at>
+    <sum>6151.9</sum>
+  </visit>
+  <visit>
+    <id>3</id>
+    <start_at>1989-11-06-07:00</start_at>
+    <end_at>1989-11-06-07:06</end_at>
+    <sum>2606.43</sum>
+  </visit>
+  <visit>
+    <id>4</id>
+    <start_at>2000-10-11-07:28</start_at>
+    <end_at>2000-10-11-08:03</end_at>
+    <sum>2072.13</sum>
+  </visit>
+  <visit>
+    <id>5</id>
+    <start_at>1974-09-26-19:55</start_at>
+    <end_at>1974-09-26-20:49</end_at>
+    <sum>5893.49</sum>
+  </visit>
+</visits>
